@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PC Baković</string>
+    <string name="title_home">Početna</string>
+    <string name="title_dashboard">Katalog</string>
+    <string name="title_notifications">Kupovina</string>
+    <string name="title_scanner">Skener</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Odustani</string>
+    <string name="item_name">Ime artikla</string>
+    <string name="catalogue_title">Pregledajte trenutni katalog</string>
+    <string name="scanner_message">Skener koji možemo izbaciti</string>
+    <string name="shop_list_message">Vas podsjetnik za kupovinu je prazan!\nDa bi dodali artikle na popis pritisnite "+"</string>
+    <string name="shop_list_action_bar_title">Popis proizvoda za kupovinu</string>
+</resources>

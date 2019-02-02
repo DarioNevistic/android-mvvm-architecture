@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             android:background="@android:color/darker_gray"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent">
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:textColor="@android:color/white"
+              android:text="@string/scanner_message"
+              android:id="@+id/textView"/>
+
+
+    <android.support.design.widget.FloatingActionButton
+            android:id="@+id/open_scanner_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:rippleColor="@android:color/holo_red_light"
+            app:fabCustomSize="50dp"
+            android:src="@drawable/ic_scan_barcode_with_scanner_tool"
+            android:backgroundTint="@android:color/holo_red_dark"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" android:layout_marginRight="8dp" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginStart="8dp"
+            app:layout_constraintStart_toStartOf="@+id/textView" android:layout_marginLeft="8dp"
+            app:layout_constraintHorizontal_bias="0.974" app:layout_constraintVertical_bias="0.984"/>
+
+</android.support.constraint.ConstraintLayout>
